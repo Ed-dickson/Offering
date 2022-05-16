@@ -7,7 +7,7 @@ let isDeleting = false
 let isEnd = false
 
 function loop () {
-  isEnd = false
+  // isEnd = false
   textDisplay.innerHTML = currentPhrase.join('')
 
   if (i < phrases.length) {
